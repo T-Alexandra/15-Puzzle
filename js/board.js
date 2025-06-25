@@ -18,7 +18,7 @@ class Board {
             this.parts.push(part);
         }
 
-        this.shuffleParts(3);
+        this.shuffleParts(100);
 
         for (const part of this.parts) {
             const part1 = part.render();
